@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <style>
+        @font-face {
+            font-family: HankenGrotesk;
+            src: url('./src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="result">
+            <h2>Your Result</h2>
+            <div class="resultscore">
+                <div class="finalscore" id="final">0</div>
+                <div class="result100">of 100</div>
+            </div>
+            <h1 id="great"></h1>
+            <div class="percentage" id="percentage"></div>
+        </div>
+        <div class="summarydiv">
+            <h2 class="summary">Summary</h2>
+            <ul>
+                <li id="reaction">
+                    <div class="skillname"><img src="./src/assets/images/icon-reaction.svg" alt="Reaction Icon">Reaction
+                    </div>
+                    <div class="skillscore">
+                        <h3 class="score" id="reactionscore">0</h3>
+                        <h3 class="total">/ 100</h3>
+                    </div>
+                </li>
+                <li id="memory">
+                    <div class="skillname"><img src="./src/assets/images/icon-memory.svg" alt="Memory Icon">Memory</div>
+                    <div class="skillscore">
+                        <h3 class="score" id="memoryscore">0</h3>
+                        <h3 class="total">/ 100</h3>
+                    </div>
+                </li>
+                <li id="verbal">
+                    <div class="skillname"><img src="./src/assets/images/icon-verbal.svg" alt="Verbal Icon">Verbal</div>
+                    <div class="skillscore">
+                        <h3 class="score" id="verbalscore">0</h3>
+                        <h3 class="total">/ 100</h3>
+                    </div>
+                </li>
+                <li id="visual">
+                    <div class="skillname"><img src="./src/assets/images/icon-visual.svg" alt="Visual Icon">Visual</div>
+                    <div class="skillscore">
+                        <h3 class="score" id="visualscore">0</h3>
+                        <h3 class="total">/ 100</h3>
+                    </div>
+                </li>
+            </ul>
+            <button id="button">Continue</button>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
